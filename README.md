@@ -1,4 +1,4 @@
-# Repositorio Frontend G-19
+# Primeros pasos Git
 
 ## Inicializar git
 
