@@ -9,7 +9,24 @@ body{
     height: 100%;
     width: 100%;
     background-color: #20252c;
-    font-family: "Poppins", sans-serif;}
+    font-family: "Poppins", sans-serif;
+  }
+
+body::before{
+  content: '';
+  width: 300px;
+  height: 300px;
+  background-color: rgb(0 153 255/.2);
+  position: absolute;
+  top: 100px;
+  left: -50px;
+  z-index: -1;
+  filter: blur(100px);
+}
+
+body::after{
+
+}
 
 main{
     padding: 20px;
